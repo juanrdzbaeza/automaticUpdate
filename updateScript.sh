@@ -262,17 +262,17 @@ function herramientas () {
 		echo "$%&$%&$%&$%&$%&$%&$%&$%&$%&$%&$%&$%&"
 		read eleccion
 		case $eleccion in
-			1) Broadcom_BCM43142  ;;
-#			2) docky 				      ;;
-#			3) alarmclock 			  ;;
-#			4) vlc 					      ;;
-#			5) shuter 				    ;;
-#			6) filezilla			    ;;
-#			7) burg					      ;;
-#			C) cmatrix				    ;;
-#			D) desktop				    ;;
-#			h) ### 					      ;;
-#			9) ### 					      ;;
+			1) Broadcom_BCM43142 	;;
+#			2) docky		;;
+#			3) alarmclock 		;;
+#			4) vlc 			;;
+#			5) shuter 		;;
+#			6) filezilla		;;
+#			7) burg			;;
+#			C) cmatrix		;;
+#			D) desktop		;;
+#			h) ### 			;;
+#			9) ### 			;;
 		esac
 		if [[ $eleccion == v ]]; then
 			eleccion = 1
@@ -310,18 +310,18 @@ function herramientas () {
 		echo "$%&$%&$%&$%&$%&$%&$%&$%&$%&$%&$%&$%&"
 		read eleccion
 		case $eleccion in
-			1) clementine		;;
-			2) docky 			  ;;
+			1) clementine	;;
+			2) docky 	;;
 			3) alarmclock 	;;
-			4) vlc 				  ;;
-			5) shuter 			;;
-			6) filezilla		;;
-			7) burg				  ;;
-			9) Drivers			;;
-			C) cmatrix			;;
-			D) desktop			;;
-#			h) ### 				  ;;
-#			9) ### 				  ;;
+			4) vlc 		;;
+			5) shuter 	;;
+			6) filezilla	;;
+			7) burg		;;
+			9) Drivers	;;
+			C) cmatrix	;;
+			D) desktop	;;
+#			h) ### 		;;
+#			9) ### 		;;
 		esac
 		if [[ $eleccion == v ]]; then
 			eleccion = 1
@@ -418,18 +418,18 @@ while [[ eleccion != 0 ]]; do
 	echo "$%&$%&$%&$%&$%&$%&$%&$%&$%&$%&$%&$%&"
 	read eleccion
 	case $eleccion in
-		1) apache 			    ;;
-		2) php 				      ;;
-		3) mysql 			      ;;
+		1) apache 		;;
+		2) php 			;;
+		3) mysql 		;;
 		4) mysql-workbench	;;
-		5) sublime-text 	  ;;
-		6) phpmyadmin		    ;;
-		7) icecast 			    ;;
-		8) synaptic	 		    ;;
-		9) gparted 			    ;;
-		t) testdisk 		    ;;
-		w) webmin 			    ;;
-		h) herramientas 	  ;;
+		5) sublime-text 	;;
+		6) phpmyadmin		;;
+		7) icecast 		;;
+		8) synaptic	 	;;
+		9) gparted 		;;
+		t) testdisk 		;;
+		w) webmin 		;;
+		h) herramientas 	;;
 	esac
 	if [[ $eleccion == q ]]; then
 		exit
